@@ -9,4 +9,10 @@ h1{
             img{
                 border: 2px solid rgb(7, 214, 241);
             }
-           
+            body {
+      background-image: fondo.jpg.jpg; /* Ruta de la imagen */
+      background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+      background-repeat: no-repeat; /* Evita que se repita */
+      background-attachment: fixed; /* Fija la imagen al hacer scroll */
+      background-position: center; /* Centra la imagen */
+    }
